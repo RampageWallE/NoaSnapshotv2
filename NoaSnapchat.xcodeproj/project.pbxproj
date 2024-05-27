@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3B83FE2C050F4500E33EB5 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B83FD2C050F4500E33EB5 /* SnapsViewController.swift */; };
+		DC3B84022C05179900E33EB5 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B84012C05179800E33EB5 /* ImagenViewController.swift */; };
 		DC7698472BFBE4E2008DC6A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7698462BFBE4E2008DC6A9 /* GoogleService-Info.plist */; };
 		DCBB2F292BFBCD770045F9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB2F282BFBCD770045F9FF /* AppDelegate.swift */; };
 		DCBB2F2B2BFBCD770045F9FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB2F2A2BFBCD770045F9FF /* SceneDelegate.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC3B83FD2C050F4500E33EB5 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		DC3B84012C05179800E33EB5 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
 		DC7698462BFBE4E2008DC6A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DCBB2F252BFBCD770045F9FF /* NoaSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoaSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBB2F282BFBCD770045F9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 		DCBB2F272BFBCD770045F9FF /* NoaSnapchat */ = {
 			isa = PBXGroup;
 			children = (
+				DC3B83FD2C050F4500E33EB5 /* SnapsViewController.swift */,
 				DCBB2F282BFBCD770045F9FF /* AppDelegate.swift */,
 				DCBB2F2A2BFBCD770045F9FF /* SceneDelegate.swift */,
 				DCBB2F2C2BFBCD770045F9FF /* iniciarSesionViewController.swift */,
@@ -124,6 +129,7 @@
 				DCBB2F332BFBCD7D0045F9FF /* LaunchScreen.storyboard */,
 				DCBB2F362BFBCD7D0045F9FF /* Info.plist */,
 				DC7698462BFBE4E2008DC6A9 /* GoogleService-Info.plist */,
+				DC3B84012C05179800E33EB5 /* ImagenViewController.swift */,
 			);
 			path = NoaSnapchat;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3B83FE2C050F4500E33EB5 /* SnapsViewController.swift in Sources */,
+				DC3B84022C05179900E33EB5 /* ImagenViewController.swift in Sources */,
 				DCBB2F2D2BFBCD770045F9FF /* iniciarSesionViewController.swift in Sources */,
 				DCBB2F292BFBCD770045F9FF /* AppDelegate.swift in Sources */,
 				DCBB2F2B2BFBCD770045F9FF /* SceneDelegate.swift in Sources */,
