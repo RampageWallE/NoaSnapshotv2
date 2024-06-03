@@ -9,7 +9,6 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import FirebaseCore
-import GoogleSignIn
 import FirebaseDatabase
 
 class iniciarSesionViewController: UIViewController {

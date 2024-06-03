@@ -13,6 +13,8 @@ class ElegirUsuarioViewController: UIViewController, UITableViewDataSource, UITa
     @IBOutlet weak var listaUsuarios: UITableView!
     
     var usuarios:[Usuario] = []
+    var imagenURL = ""
+    var descrip = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +44,13 @@ class ElegirUsuarioViewController: UIViewController, UITableViewDataSource, UITa
         let usuario = usuarios[indexPath.row]
         cell.textLabel?.text = usuario.email
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let usuario = usuarios[indexPath.row]
+        let snap = ["from" : usuario.email, "description" : descrip, "imagenURL" : imagenURL]
+        
+        Database.database().reference().child("usuarios").child(usuario.uid).child("snaps").childByAutoId().setValue(snap)
     }
 
     /*
