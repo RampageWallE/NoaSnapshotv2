@@ -123,7 +123,7 @@
             </objects>
             <point key="canvasLocation" x="1364" y="125"/>
         </scene>
-        <!--Title-->
+        <!--Enviar Mensaje-->
         <scene sceneID="pxt-IG-STe">
             <objects>
                 <viewController id="VQ1-90-WR7" customClass="ImagenViewController" customModule="NoaSnapchat" customModuleProvider="target" sceneMemberID="viewController">
@@ -173,7 +173,7 @@
                             <constraint firstItem="8mC-uM-cfM" firstAttribute="centerX" secondItem="fTX-sZ-Q15" secondAttribute="centerX" id="n9F-gJ-3Pv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="LIk-xs-D8j">
+                    <navigationItem key="navigationItem" title="Enviar Mensaje" id="LIk-xs-D8j">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="eJs-Ji-fjo">
                             <connections>
                                 <action selector="camaraTapped:" destination="VQ1-90-WR7" id="zNd-m3-FFn"/>
@@ -191,17 +191,32 @@
             </objects>
             <point key="canvasLocation" x="2017" y="125"/>
         </scene>
-        <!--View Controller-->
+        <!--Lista de usuarios-->
         <scene sceneID="A9P-wp-nKg">
             <objects>
-                <viewController id="r1l-gd-XsQ" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="r1l-gd-XsQ" customClass="ElegirUsuarioViewController" customModule="NoaSnapchat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sN6-cN-JBx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="efn-lv-hBz">
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XKI-mP-xsP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="efn-lv-hBz" firstAttribute="leading" secondItem="XKI-mP-xsP" secondAttribute="leading" id="PVz-Vy-7BH"/>
+                            <constraint firstItem="XKI-mP-xsP" firstAttribute="trailing" secondItem="efn-lv-hBz" secondAttribute="trailing" id="TVF-Gc-k3k"/>
+                            <constraint firstItem="efn-lv-hBz" firstAttribute="top" secondItem="XKI-mP-xsP" secondAttribute="top" id="rmu-7E-Jdv"/>
+                            <constraint firstItem="XKI-mP-xsP" firstAttribute="bottom" secondItem="efn-lv-hBz" secondAttribute="bottom" id="v6W-Jg-1Es"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="0fZ-KY-YgX"/>
+                    <navigationItem key="navigationItem" title="Lista de usuarios" id="enz-yR-Vdx"/>
+                    <connections>
+                        <outlet property="listaUsuarios" destination="efn-lv-hBz" id="VLf-r5-NL6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5X-0H-gub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
