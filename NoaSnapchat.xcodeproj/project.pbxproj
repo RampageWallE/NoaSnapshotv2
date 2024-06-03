@@ -34,6 +34,7 @@
 		DCFA1CC72C0E4AB500E7FD5F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DCFA1CC62C0E4AB500E7FD5F /* FirebaseStorage */; };
 		DCFA1CC92C0E4AB500E7FD5F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DCFA1CC82C0E4AB500E7FD5F /* FirebaseStorageCombine-Community */; };
 		DCFA1CCB2C0E552900E7FD5F /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA1CCA2C0E552900E7FD5F /* Snap.swift */; };
+		DCFA1CCD2C0E679D00E7FD5F /* VerSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA1CCC2C0E679D00E7FD5F /* VerSnapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		DCBB2F342BFBCD7D0045F9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBB2F362BFBCD7D0045F9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCFA1CCA2C0E552900E7FD5F /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		DCFA1CCC2C0E679D00E7FD5F /* VerSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerSnapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DCBB2F2C2BFBCD770045F9FF /* iniciarSesionViewController.swift */,
 				DC3B83FD2C050F4500E33EB5 /* SnapsViewController.swift */,
 				DC3B84012C05179800E33EB5 /* ImagenViewController.swift */,
+				DCFA1CCC2C0E679D00E7FD5F /* VerSnapViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				DC3B84022C05179900E33EB5 /* ImagenViewController.swift in Sources */,
 				DC362E8A2C0BD06500A13B44 /* Usuario.swift in Sources */,
 				DCBB2F2D2BFBCD770045F9FF /* iniciarSesionViewController.swift in Sources */,
+				DCFA1CCD2C0E679D00E7FD5F /* VerSnapViewController.swift in Sources */,
 				DCBB2F292BFBCD770045F9FF /* AppDelegate.swift in Sources */,
 				DCBB2F2B2BFBCD770045F9FF /* SceneDelegate.swift in Sources */,
 				DC362E862C0BC62300A13B44 /* ElegirUsuarioViewController.swift in Sources */,
